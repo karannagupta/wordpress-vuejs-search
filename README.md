@@ -6,6 +6,8 @@
 
 **Tags:** WordPress Search with Vue.js, spa, search, rest api, single-file components.
 
+**Requires WordPress:** 4.9
+
 **Requires PHP at least:** 5.6.0
 
 **A Single Page Search app integrated inside a child theme of the Twenty Seventeen WordPress theme implemented with Vue.js.**
