@@ -55,11 +55,15 @@ The Custom Page Template loads a Single Page Search App implemented with Vue.js
 
 ## Screenshots
 
-#### 1. Set the Custom Page Template
+#### 1. Set up the vuetwentyseventeen child theme.
+
+![Child Theme](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/activate-child-theme.png "Set up the vuetwentyseventeen child theme")
+
+#### 2. Set the Custom Page Template
 
 ![Custom Page Template](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/cpt-for-vue-search-app.png "Access Custom Page Template on Edit Page screen in the Dashboard")
 
-#### 2. The Search App with Vue.js!
+#### 3. The Search App with Vue.js!
 
 ![The Vue Search App](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/vue-search-app-wordpress.png "The Search App with Vue.js")
 
