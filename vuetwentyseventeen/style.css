@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Vue Twenty Seventeen Child
+ Theme URI:    http://example.com/vue-twenty-seventeen-child/
+ Description:  Vue.js integrated with the Twenty Seventeen in a Child Theme
+ Author:       Karan NA Gupta
+ Author URI:   http://nuancedesign.studio
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  vue-twenty-seventeen-child
+*/
+
+@media screen and (min-width: 48em) {
+	.site-content {
+		padding: 2.5em 0 0;
+	}
+}
