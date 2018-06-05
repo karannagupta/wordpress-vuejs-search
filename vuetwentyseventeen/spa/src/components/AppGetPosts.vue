@@ -110,6 +110,8 @@ export default {
 		this.fetchData();
 	},
 	methods: {
+
+		// fetch posts only if fetchNow is greater than 0.
 		fetchData() {
 			if ( 0 < this.fetchNow ) {
 				this.getPosts( this.route );

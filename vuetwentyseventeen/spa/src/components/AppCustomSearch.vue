@@ -58,7 +58,7 @@ export default {
 		return {
 			cptSelected: 'posts', // set default post type to posts in case nothing is selected.
 			searchTerm: '',
-			fetchNow: 0,
+			fetchNow: 0, // prevent REST API request on mount
 			taxFilters: [],
 
 			// assuming the category taxonmoy is shared across custom post types

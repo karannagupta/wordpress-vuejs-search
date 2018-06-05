@@ -46,11 +46,15 @@ export default {
 		}
 	},
 	computed: {
+
+		// highlight the search term in post titles.
 		highlightedPostTitle() {
 			if ( this.searchTerm ) {
 				return this.highlightData( this.postType.title.rendered );
 			}
 		},
+
+		// highlight the search term in post excerpts.
 		highlightedPostExcerpt() {
 			if ( this.searchTerm ) {
 				return this.highlightData( this.postType.vue_meta.custom_excerpt );
@@ -58,6 +62,8 @@ export default {
 		}
 	},
 	methods: {
+
+		// add span tags with the hl-search CSS class to the search term.
 		highlightData( data ) {
 			if ( this.searchTerm ) {
 				const pattern = new RegExp( this.searchTerm, 'i' );
