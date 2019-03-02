@@ -48,25 +48,25 @@ The Custom Page Template loads a Single Page Search App implemented with Vue.js
 
 ## Developer Notes
 
-* Requires the Twenty Seventeen WordPress theme.
-* Boilerplate files and comments have not been removed.
-* Uses Bootstrap for the CSS
-* The request to the WordPress REST API only loads 1000 records. Modify this in `spa/components/AppGetPosts.vue`
+- Requires the Twenty Seventeen WordPress theme.
+- Boilerplate files and comments have not been removed.
+- Uses Bootstrap for the CSS
+- The request to the WordPress REST API only loads 1000 records. Modify this in `spa/components/AppGetPosts.vue`
 
 ## Screenshots
 
 #### 1. Set up the vuetwentyseventeen child theme.
 
-![Child Theme](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/activate-child-theme.png "Set up the vuetwentyseventeen child theme")
+![Child Theme](https://karannagupta.com/kg/wp-content/uploads/2019/03/activate-child-theme.png "Set up the vuetwentyseventeen child theme")
 
 #### 2. Set the Custom Page Template
 
-![Custom Page Template](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/cpt-for-vue-search-app.png "Access Custom Page Template on Edit Page screen in the Dashboard")
+![Custom Page Template](https://karannagupta.com/kg/wp-content/uploads/2019/03/cpt-for-vue-search-app.png "Access Custom Page Template on Edit Page screen in the Dashboard")
 
 #### 3. The Search App with Vue.js!
 
-![The Vue Search App](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/vue-search-app-wordpress.png "The Search App with Vue.js")
+![The Vue Search App](https://karannagupta.com/kg/wp-content/uploads/2019/03/vue-search-app-wordpress.png "The Search App with Vue.js")
 
 ## Flow of Control
 
-#### ![Vue Search App Flow of Control](https://www.nuancedesignstudio.in/nds.in/wp-content/uploads/2018/06/internal-strucutre-vue-search-spa.png "Search App Flow of Control")
+#### ![Vue Search App Flow of Control](https://karannagupta.com/kg/wp-content/uploads/2019/03/internal-strucutre-vue-search-spa.png "Search App Flow of Control")
