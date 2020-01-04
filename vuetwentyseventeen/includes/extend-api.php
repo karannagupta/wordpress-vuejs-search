@@ -40,8 +40,9 @@ function vue_get_post_meta_fields( $post_object, $field_name, $request ) {
 	$term_links = array();
 
 	$post_id = $post_object['id']; // get the post id.
-	foreach ( $post_object['categories'] as $category_id ) {
-		$term_data = get_category( $category_id );
+	$post_categories = get_the_category( $post_id );
+	foreach ( $post_categories as $category ) {
+		$term_data = get_category( $category->term_id );
 		$term_name = $term_data->category_nicename;
 		$term_url = get_term_link( $term_data->name, $term_data->taxonomy );
 		$term_link = "<a href=\"$term_url\">$term_name</a>";
